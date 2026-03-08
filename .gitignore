@@ -1,0 +1,13 @@
+.env  
+__pycache__/ *.py[cod] *.so  
+.venv/ venv/ env/  
+.ipynb_checkpoints/ *.ipynb  
+models/*.pkl models/*.joblib  
+# Mac system files 
+.DS_Store  
+# IDE 
+.vscode/ .idea/  
+# Logs 
+*.log  
+# Data files (if you don't want to commit large datasets)
+data/*.csv data/*.json
